@@ -1,0 +1,22 @@
+.work-list__button{
+    @extend %button;
+    color: $accent-color;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    background-color: $button-bg-color;
+    letter-spacing: 0.03em;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+    padding: 6px 22px;
+    border-radius: 4px;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: $time-transition-duration;
+    &:focus, &:hover{
+        background-color: $active-link-color;
+        color: $primary-bg-color;
+    }
+}

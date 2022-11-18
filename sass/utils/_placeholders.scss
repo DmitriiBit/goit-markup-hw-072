@@ -1,0 +1,16 @@
+%button{
+    font-family: Roboto, sans-serif;
+    color: $primary-bg-color;
+    background-color: $active-link-color ;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    border: none;
+    min-width: 73px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: $time-transition-duration;
+
+}

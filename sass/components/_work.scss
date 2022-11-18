@@ -1,0 +1,102 @@
+.work{
+    padding-top: 106px;
+   
+}
+
+.work__titel{
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: $accent-color;
+margin-bottom: 50px;
+}
+
+.work__list{
+    
+    display: flex;
+    gap: $card-set-gap;
+    margin-bottom: 0;
+}
+.work__card{
+    position: relative;
+}
+.work__card--decstop{
+    position: relative;
+}
+.work__card--decstop::before{
+    position: absolute;
+    content: "";
+    display: flex;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    transform: translate(0%, 225px);
+}
+.work__card-mobail{
+    position: relative;
+}
+.work__card--mobail::before{
+    position: absolute;
+    content: "";
+    display: flex;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    transform: translate(0%, 225px);
+}
+
+.work__card--disain{
+    position: relative;
+}
+.work__card--disain::before{
+    position: absolute;
+    content: "";
+    display: flex;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    transform: translate(0%, 225px);
+}
+
+
+.work__card--decstop::after{
+    position: absolute;
+    content: "Десктопні додатки";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $primary-bg-color;
+    text-transform: uppercase;
+    transform: translate(70%, -40px);
+}
+
+
+.work__card--mobail::after{
+    content: "Мобільні додатки";
+    position: absolute;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $primary-bg-color;
+    text-transform: uppercase;
+    transform: translate(80%, -40px);
+}
+
+.work__card--disain::after{
+    content: "Дизайнерські рішення";
+    position: absolute;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $primary-bg-color;
+    text-transform: uppercase;
+    transform: translate(50%, -40px);
+}

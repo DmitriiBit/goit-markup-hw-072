@@ -1,0 +1,13 @@
+
+.button-order{
+    @extend %button;
+    padding: 10px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    &:hover,&:focus{
+        color: $accent-color;
+    }
+    
+    min-width: 216px;
+    border-radius: 4px;
+}

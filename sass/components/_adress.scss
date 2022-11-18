@@ -1,0 +1,36 @@
+.address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: $primary-bg-color;
+    transition-duration: 250ms;
+    transition-timing-function: $time-transition-duration;
+    letter-spacing: 0.03em
+}
+.footer__mail{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: rgba(255, 255, 255, 0.6);;
+    transition-duration: 250ms;
+    transition-timing-function: $time-transition-duration;
+    letter-spacing: 0.03em
+}
+.footer__phone{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: rgba(255, 255, 255, 0.6);;
+    transition-duration: 250ms;
+    transition-timing-function: $time-transition-duration;
+    letter-spacing: 0.03em
+}

@@ -1,0 +1,39 @@
+.footer__logo{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    transition-duration: 250ms;
+    transition-timing-function: $time-transition-duration;
+    
+}
+.footer__web{
+    color: $active-link-color;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em
+}
+
+.footer__studio{
+    color: $active-link-color;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    color: $primary-bg-color;
+    letter-spacing: 0.03em
+    
+}
+
+.footer__studio:hover,
+.footer__studio:focus{
+    color: $active-link-color;
+}
